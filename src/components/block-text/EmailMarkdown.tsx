@@ -69,11 +69,11 @@ function sanitizer(html: string): string {
 class CustomRenderer extends Renderer {
   table(header: string, body: string) {
     return `<table width="100%">
-<thead>
-${header}</thead>
-<tbody>
-${body}</tbody>
-</table>`;
+    <thead>
+    ${header}</thead>
+    <tbody>
+    ${body}</tbody>
+    </table>`;
   }
 
   link(href: string, title: string | null, text: string) {
