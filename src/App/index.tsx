@@ -1,4 +1,4 @@
-import React, {forwardRef, useEffect, useImperativeHandle, useMemo} from 'react';
+import {forwardRef, useEffect, useImperativeHandle, useMemo} from 'react';
 
 import {Stack, useTheme} from '@mui/material';
 
@@ -13,7 +13,7 @@ import InspectorDrawer, {INSPECTOR_DRAWER_WIDTH} from './InspectorDrawer';
 import SamplesDrawer, {SAMPLES_DRAWER_WIDTH} from './SamplesDrawer';
 import TemplatePanel from './TemplatePanel';
 import EMPTY_EMAIL_MESSAGE from "../getConfiguration/sample/empty-email-message";
-import {renderToStaticMarkup} from "@usewaypoint/email-builder";
+import { renderToStaticMarkup } from '../components/email-builder';
 
 function useDrawerTransition(cssProperty: 'margin-left' | 'margin-right', open: boolean) {
     const {transitions} = useTheme();

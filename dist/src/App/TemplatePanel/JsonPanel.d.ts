@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function JsonPanel(): React.JSX.Element;
+export default function JsonPanel(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=JsonPanel.d.ts.map

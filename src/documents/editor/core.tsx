@@ -1,19 +1,5 @@
-import React from 'react';
 import { z } from 'zod';
 
-import { Avatar, AvatarPropsSchema } from '@usewaypoint/block-avatar';
-import { Button, ButtonPropsSchema } from '@usewaypoint/block-button';
-import { Divider, DividerPropsSchema } from '@usewaypoint/block-divider';
-import { Heading, HeadingPropsSchema } from '@usewaypoint/block-heading';
-import { Html, HtmlPropsSchema } from '@usewaypoint/block-html';
-import { Image, ImagePropsSchema } from '@usewaypoint/block-image';
-import { Spacer, SpacerPropsSchema } from '@usewaypoint/block-spacer';
-import { Text, TextPropsSchema } from '@usewaypoint/block-text';
-import {
-  buildBlockComponent,
-  buildBlockConfigurationDictionary,
-  buildBlockConfigurationSchema,
-} from '@usewaypoint/document-core';
 
 import ColumnsContainerEditor from '../blocks/ColumnsContainer/ColumnsContainerEditor';
 import ColumnsContainerPropsSchema from '../blocks/ColumnsContainer/ColumnsContainerPropsSchema';
@@ -22,6 +8,15 @@ import ContainerPropsSchema from '../blocks/Container/ContainerPropsSchema';
 import EmailLayoutEditor from '../blocks/EmailLayout/EmailLayoutEditor';
 import EmailLayoutPropsSchema from '../blocks/EmailLayout/EmailLayoutPropsSchema';
 import EditorBlockWrapper from '../blocks/helpers/block-wrappers/EditorBlockWrapper';
+import { Avatar, AvatarPropsSchema } from '../../components/block-avatar';
+import { Button, ButtonPropsSchema } from '../../components/block-button';
+import { Divider, DividerPropsSchema } from '../../components/block-divider';
+import { Heading, HeadingPropsSchema } from '../../components/block-heading';
+import { Html, HtmlPropsSchema } from '../../components/block-html';
+import { ImagePropsSchema, Image } from '../../components/block-image';
+import { Spacer, SpacerPropsSchema } from '../../components/block-spacer';
+import { TextPropsSchema, Text } from '../../components/block-text';
+import { buildBlockComponent, buildBlockConfigurationDictionary, buildBlockConfigurationSchema } from '../../components/document-core';
 
 const EDITOR_DICTIONARY = buildBlockConfigurationDictionary({
   Avatar: {

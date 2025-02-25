@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function ImportJson(): React.JSX.Element;
+export default function ImportJson(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=index.d.ts.map

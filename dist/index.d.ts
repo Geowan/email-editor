@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 import { default as theme } from './src/theme';
 type AppProps = {
     templateData: any;
@@ -9,6 +8,6 @@ interface ChildRef {
         html: any;
     };
 }
-export declare const EmailEditor: React.ForwardRefExoticComponent<AppProps & React.RefAttributes<ChildRef>>;
+export declare const EmailEditor: import('react').ForwardRefExoticComponent<AppProps & import('react').RefAttributes<ChildRef>>;
 export { theme };
 //# sourceMappingURL=index.d.ts.map

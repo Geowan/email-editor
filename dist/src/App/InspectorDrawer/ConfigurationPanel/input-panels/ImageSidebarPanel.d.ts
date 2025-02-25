@@ -1,9 +1,8 @@
-import { default as React } from 'react';
-import { ImageProps } from '@usewaypoint/block-image';
+import { ImageProps } from '../../../../components/block-image';
 type ImageSidebarPanelProps = {
     data: ImageProps;
     setData: (v: ImageProps) => void;
 };
-export default function ImageSidebarPanel({ data, setData }: ImageSidebarPanelProps): React.JSX.Element;
+export default function ImageSidebarPanel({ data, setData }: ImageSidebarPanelProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=ImageSidebarPanel.d.ts.map

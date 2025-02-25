@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function ToggleSamplesPanelButton(): React.JSX.Element;
+export default function ToggleSamplesPanelButton(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=ToggleSamplesPanelButton.d.ts.map

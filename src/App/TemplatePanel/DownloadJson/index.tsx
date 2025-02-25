@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 import { FileDownloadOutlined } from '@mui/icons-material';
 import { IconButton, Tooltip } from '@mui/material';

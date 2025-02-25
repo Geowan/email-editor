@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 import { TEditorBlock } from '../../../editor/core';
 export type EditorChildrenChange = {
     blockId: string;
@@ -9,5 +8,5 @@ export type EditorChildrenIdsProps = {
     childrenIds: string[] | null | undefined;
     onChange: (val: EditorChildrenChange) => void;
 };
-export default function EditorChildrenIds({ childrenIds, onChange }: EditorChildrenIdsProps): React.JSX.Element;
+export default function EditorChildrenIds({ childrenIds, onChange }: EditorChildrenIdsProps): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=index.d.ts.map

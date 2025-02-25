@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 type Props = {
     nullable: true;
     label: string;
@@ -10,6 +9,6 @@ type Props = {
     onChange: (value: string) => void;
     defaultValue: string;
 };
-export default function ColorInput({ label, defaultValue, onChange, nullable }: Props): React.JSX.Element;
+export default function ColorInput({ label, defaultValue, onChange, nullable }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=BaseColorInput.d.ts.map

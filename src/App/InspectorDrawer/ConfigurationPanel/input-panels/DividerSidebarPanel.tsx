@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { HeightOutlined } from '@mui/icons-material';
-import { DividerProps, DividerPropsDefaults, DividerPropsSchema } from '@usewaypoint/block-divider';
 
 import BaseSidebarPanel from './helpers/BaseSidebarPanel';
 import ColorInput from './helpers/inputs/ColorInput';
 import SliderInput from './helpers/inputs/SliderInput';
 import MultiStylePropertyPanel from './helpers/style-inputs/MultiStylePropertyPanel';
+import { DividerProps, DividerPropsDefaults, DividerPropsSchema } from '../../../../components/block-divider';
 
 type DividerSidebarPanelProps = {
   data: DividerProps;

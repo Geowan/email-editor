@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 type AppProps = {
     templateData: any;
 };
@@ -8,6 +7,6 @@ interface ChildRef {
         html: any;
     };
 }
-declare const App: React.ForwardRefExoticComponent<AppProps & React.RefAttributes<ChildRef>>;
+declare const App: import('react').ForwardRefExoticComponent<AppProps & import('react').RefAttributes<ChildRef>>;
 export default App;
 //# sourceMappingURL=index.d.ts.map

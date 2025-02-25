@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 type TPaddingValue = {
     top: number;
     bottom: number;
@@ -10,6 +9,6 @@ type Props = {
     defaultValue: TPaddingValue | null;
     onChange: (value: TPaddingValue) => void;
 };
-export default function PaddingInput({ label, defaultValue, onChange }: Props): React.JSX.Element;
+export default function PaddingInput({ label, defaultValue, onChange }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=PaddingInput.d.ts.map

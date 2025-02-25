@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { FileUploadOutlined } from '@mui/icons-material';
 import { IconButton, Tooltip } from '@mui/material';

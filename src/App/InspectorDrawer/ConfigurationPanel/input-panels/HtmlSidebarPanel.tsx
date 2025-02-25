@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-
-import { HtmlProps, HtmlPropsSchema } from '@usewaypoint/block-html';
+import { useState } from 'react';
 
 import BaseSidebarPanel from './helpers/BaseSidebarPanel';
 import TextInput from './helpers/inputs/TextInput';
 import MultiStylePropertyPanel from './helpers/style-inputs/MultiStylePropertyPanel';
+import { HtmlProps, HtmlPropsSchema } from '../../../../components/block-html';
 
 type HtmlSidebarPanelProps = {
   data: HtmlProps;

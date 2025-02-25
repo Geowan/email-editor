@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { RoundedCornerOutlined } from '@mui/icons-material';
 
 import { TStyle } from '../../../../../../documents/blocks/helpers/TStyle';

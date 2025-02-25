@@ -1,8 +1,7 @@
-import { default as React } from 'react';
 type Props = {
     buttonElement: HTMLElement | null;
     onClick: () => void;
 };
-export default function DividerButton({ buttonElement, onClick }: Props): React.JSX.Element;
+export default function DividerButton({ buttonElement, onClick }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=DividerButton.d.ts.map

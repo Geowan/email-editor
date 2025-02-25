@@ -11,12 +11,12 @@ export declare function zPadding(): z.ZodObject<{
 }, "strip", z.ZodTypeAny, {
     top: number;
     bottom: number;
-    left: number;
     right: number;
+    left: number;
 }, {
     top: number;
     bottom: number;
-    left: number;
     right: number;
+    left: number;
 }>;
 //# sourceMappingURL=zod.d.ts.map

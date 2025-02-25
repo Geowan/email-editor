@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function MainTabsGroup(): React.JSX.Element;
+export default function MainTabsGroup(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=MainTabsGroup.d.ts.map

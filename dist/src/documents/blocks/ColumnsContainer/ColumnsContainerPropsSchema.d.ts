@@ -70,7 +70,7 @@ declare const ColumnsContainerPropsSchema: z.ZodObject<{
         fixedWidths?: [number | null | undefined, number | null | undefined, number | null | undefined] | null | undefined;
         columnsCount?: 2 | 3 | null | undefined;
         columnsGap?: number | null | undefined;
-        contentAlignment?: "top" | "middle" | "bottom" | null | undefined;
+        contentAlignment?: "top" | "bottom" | "middle" | null | undefined;
     }, {
         columns: [{
             childrenIds: string[];
@@ -82,7 +82,7 @@ declare const ColumnsContainerPropsSchema: z.ZodObject<{
         fixedWidths?: [number | null | undefined, number | null | undefined, number | null | undefined] | null | undefined;
         columnsCount?: 2 | 3 | null | undefined;
         columnsGap?: number | null | undefined;
-        contentAlignment?: "top" | "middle" | "bottom" | null | undefined;
+        contentAlignment?: "top" | "bottom" | "middle" | null | undefined;
     }>>>;
 }, "strip", z.ZodTypeAny, {
     style?: {
@@ -105,7 +105,7 @@ declare const ColumnsContainerPropsSchema: z.ZodObject<{
         fixedWidths?: [number | null | undefined, number | null | undefined, number | null | undefined] | null | undefined;
         columnsCount?: 2 | 3 | null | undefined;
         columnsGap?: number | null | undefined;
-        contentAlignment?: "top" | "middle" | "bottom" | null | undefined;
+        contentAlignment?: "top" | "bottom" | "middle" | null | undefined;
     } | null | undefined;
 }, {
     style?: {
@@ -128,7 +128,7 @@ declare const ColumnsContainerPropsSchema: z.ZodObject<{
         fixedWidths?: [number | null | undefined, number | null | undefined, number | null | undefined] | null | undefined;
         columnsCount?: 2 | 3 | null | undefined;
         columnsGap?: number | null | undefined;
-        contentAlignment?: "top" | "middle" | "bottom" | null | undefined;
+        contentAlignment?: "top" | "bottom" | "middle" | null | undefined;
     } | null | undefined;
 }>;
 export type ColumnsContainerProps = z.infer<typeof ColumnsContainerPropsSchema>;

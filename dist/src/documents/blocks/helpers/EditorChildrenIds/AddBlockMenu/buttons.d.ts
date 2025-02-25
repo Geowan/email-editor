@@ -1,7 +1,8 @@
+import { default as React } from 'react';
 import { TEditorBlock } from '../../../../editor/core';
 type TButtonProps = {
     label: string;
-    icon: JSX.Element;
+    icon: React.JSX.Element;
     block: () => TEditorBlock;
 };
 export declare const BUTTONS: TButtonProps[];

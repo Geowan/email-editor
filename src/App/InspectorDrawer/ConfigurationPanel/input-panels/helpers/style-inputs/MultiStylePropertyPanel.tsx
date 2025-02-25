@@ -1,4 +1,3 @@
-import React from 'react';
 
 import { TStyle } from '../../../../../../documents/blocks/helpers/TStyle';
 

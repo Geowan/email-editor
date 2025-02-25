@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 export declare const DEFAULT_2_COLUMNS: [number];
 export declare const DEFAULT_3_COLUMNS: [number, number];
 type FixedWidths = [
@@ -10,6 +9,6 @@ type ColumnsLayoutInputProps = {
     defaultValue: FixedWidths | null | undefined;
     onChange: (v: FixedWidths | null | undefined) => void;
 };
-export default function ColumnWidthsInput({ defaultValue, onChange }: ColumnsLayoutInputProps): React.JSX.Element;
+export default function ColumnWidthsInput({ defaultValue, onChange }: ColumnsLayoutInputProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=ColumnWidthsInput.d.ts.map

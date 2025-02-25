@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Box, Drawer, Tab, Tabs } from '@mui/material';
 
 import { setSidebarTab, useInspectorDrawerOpen, useSelectedSidebarTab } from '../../documents/editor/EditorContext';

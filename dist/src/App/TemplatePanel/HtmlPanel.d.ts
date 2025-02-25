@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function HtmlPanel(): React.JSX.Element;
+export default function HtmlPanel(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=HtmlPanel.d.ts.map

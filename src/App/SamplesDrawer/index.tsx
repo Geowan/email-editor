@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Box, Button, Divider, Drawer, Link, Stack, Typography } from '@mui/material';
 
 import { useSamplesDrawerOpen } from '../../documents/editor/EditorContext';

@@ -22,24 +22,24 @@ declare const ContainerPropsSchema: z.ZodObject<{
         }>>>;
     }, "strip", z.ZodTypeAny, {
         backgroundColor?: string | null | undefined;
-        borderColor?: string | null | undefined;
-        borderRadius?: number | null | undefined;
         padding?: {
             top: number;
             bottom: number;
             right: number;
             left: number;
         } | null | undefined;
+        borderColor?: string | null | undefined;
+        borderRadius?: number | null | undefined;
     }, {
         backgroundColor?: string | null | undefined;
-        borderColor?: string | null | undefined;
-        borderRadius?: number | null | undefined;
         padding?: {
             top: number;
             bottom: number;
             right: number;
             left: number;
         } | null | undefined;
+        borderColor?: string | null | undefined;
+        borderRadius?: number | null | undefined;
     }>>>;
     props: z.ZodNullable<z.ZodOptional<z.ZodObject<{
         childrenIds: z.ZodNullable<z.ZodOptional<z.ZodArray<z.ZodString, "many">>>;
@@ -51,14 +51,14 @@ declare const ContainerPropsSchema: z.ZodObject<{
 }, "strip", z.ZodTypeAny, {
     style?: {
         backgroundColor?: string | null | undefined;
-        borderColor?: string | null | undefined;
-        borderRadius?: number | null | undefined;
         padding?: {
             top: number;
             bottom: number;
             right: number;
             left: number;
         } | null | undefined;
+        borderColor?: string | null | undefined;
+        borderRadius?: number | null | undefined;
     } | null | undefined;
     props?: {
         childrenIds?: string[] | null | undefined;
@@ -66,14 +66,14 @@ declare const ContainerPropsSchema: z.ZodObject<{
 }, {
     style?: {
         backgroundColor?: string | null | undefined;
-        borderColor?: string | null | undefined;
-        borderRadius?: number | null | undefined;
         padding?: {
             top: number;
             bottom: number;
             right: number;
             left: number;
         } | null | undefined;
+        borderColor?: string | null | undefined;
+        borderRadius?: number | null | undefined;
     } | null | undefined;
     props?: {
         childrenIds?: string[] | null | undefined;

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { AppRegistrationOutlined, LastPageOutlined } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 

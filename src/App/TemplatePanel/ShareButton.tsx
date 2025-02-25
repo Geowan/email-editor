@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { IosShareOutlined } from '@mui/icons-material';
 import { IconButton, Snackbar, Tooltip } from '@mui/material';

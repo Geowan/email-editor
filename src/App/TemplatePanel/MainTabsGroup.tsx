@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { EditOutlined, PreviewOutlined } from '@mui/icons-material';
 import { Tab, Tabs, Tooltip } from '@mui/material';
 

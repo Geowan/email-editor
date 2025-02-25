@@ -4,7 +4,7 @@
     "module": "esnext",
     "lib": [],
     "moduleResolution": "node",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "sourceMap": true,
     "allowJs": true,

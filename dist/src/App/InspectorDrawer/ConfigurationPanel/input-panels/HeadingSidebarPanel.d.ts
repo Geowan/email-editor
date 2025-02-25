@@ -1,9 +1,8 @@
-import { default as React } from 'react';
-import { HeadingProps } from '@usewaypoint/block-heading';
+import { HeadingProps } from '../../../../components/block-heading';
 type HeadingSidebarPanelProps = {
     data: HeadingProps;
     setData: (v: HeadingProps) => void;
 };
-export default function HeadingSidebarPanel({ data, setData }: HeadingSidebarPanelProps): React.JSX.Element;
+export default function HeadingSidebarPanel({ data, setData }: HeadingSidebarPanelProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=HeadingSidebarPanel.d.ts.map

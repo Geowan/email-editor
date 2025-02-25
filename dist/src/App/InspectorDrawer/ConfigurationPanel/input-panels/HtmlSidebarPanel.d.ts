@@ -1,9 +1,8 @@
-import { default as React } from 'react';
-import { HtmlProps } from '@usewaypoint/block-html';
+import { HtmlProps } from '../../../../components/block-html';
 type HtmlSidebarPanelProps = {
     data: HtmlProps;
     setData: (v: HtmlProps) => void;
 };
-export default function HtmlSidebarPanel({ data, setData }: HtmlSidebarPanelProps): React.JSX.Element;
+export default function HtmlSidebarPanel({ data, setData }: HtmlSidebarPanelProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=HtmlSidebarPanel.d.ts.map

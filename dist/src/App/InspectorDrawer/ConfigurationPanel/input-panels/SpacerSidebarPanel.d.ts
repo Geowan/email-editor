@@ -1,9 +1,8 @@
-import { default as React } from 'react';
-import { SpacerProps } from '@usewaypoint/block-spacer';
+import { SpacerProps } from '../../../../components/block-spacer';
 type SpacerSidebarPanelProps = {
     data: SpacerProps;
     setData: (v: SpacerProps) => void;
 };
-export default function SpacerSidebarPanel({ data, setData }: SpacerSidebarPanelProps): React.JSX.Element;
+export default function SpacerSidebarPanel({ data, setData }: SpacerSidebarPanelProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=SpacerSidebarPanel.d.ts.map

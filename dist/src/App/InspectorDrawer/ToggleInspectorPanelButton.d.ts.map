@@ -1,1 +1,1 @@
-{"version":3,"file":"ToggleInspectorPanelButton.d.ts","sourceRoot":"","sources":["../../../../src/App/InspectorDrawer/ToggleInspectorPanelButton.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAO1B,MAAM,CAAC,OAAO,UAAU,0BAA0B,sBAkBjD"}
+{"version":3,"file":"ToggleInspectorPanelButton.d.ts","sourceRoot":"","sources":["../../../../src/App/InspectorDrawer/ToggleInspectorPanelButton.tsx"],"names":[],"mappings":"AAKA,MAAM,CAAC,OAAO,UAAU,0BAA0B,4CAkBjD"}

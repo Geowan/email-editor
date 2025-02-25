@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {CssBaseline, ThemeProvider} from '@mui/material';
 
 import App from './src/App';

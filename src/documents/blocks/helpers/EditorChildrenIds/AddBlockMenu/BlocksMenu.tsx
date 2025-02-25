@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Box, Menu } from '@mui/material';
 
 import { TEditorBlock } from '../../../../editor/core';

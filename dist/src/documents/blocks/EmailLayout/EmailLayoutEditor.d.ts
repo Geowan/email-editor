@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 import { EmailLayoutProps } from './EmailLayoutPropsSchema';
-export default function EmailLayoutEditor(props: EmailLayoutProps): React.JSX.Element;
+export default function EmailLayoutEditor(props: EmailLayoutProps): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=EmailLayoutEditor.d.ts.map

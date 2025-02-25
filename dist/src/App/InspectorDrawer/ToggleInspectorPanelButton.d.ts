@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function ToggleInspectorPanelButton(): React.JSX.Element;
+export default function ToggleInspectorPanelButton(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=ToggleInspectorPanelButton.d.ts.map

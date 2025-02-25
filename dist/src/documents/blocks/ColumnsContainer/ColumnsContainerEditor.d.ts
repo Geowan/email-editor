@@ -1,4 +1,3 @@
-import { default as React } from 'react';
 import { ColumnsContainerProps } from './ColumnsContainerPropsSchema';
-export default function ColumnsContainerEditor({ style, props }: ColumnsContainerProps): React.JSX.Element;
+export default function ColumnsContainerEditor({ style, props }: ColumnsContainerProps): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=ColumnsContainerEditor.d.ts.map

@@ -1,3 +1,2 @@
-import { default as React } from 'react';
-export default function StylesPanel(): React.JSX.Element;
+export default function StylesPanel(): import("react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=StylesPanel.d.ts.map

@@ -1,9 +1,8 @@
-import { default as React } from 'react';
-import { DividerProps } from '@usewaypoint/block-divider';
+import { DividerProps } from '../../../../components/block-divider';
 type DividerSidebarPanelProps = {
     data: DividerProps;
     setData: (v: DividerProps) => void;
 };
-export default function DividerSidebarPanel({ data, setData }: DividerSidebarPanelProps): React.JSX.Element;
+export default function DividerSidebarPanel({ data, setData }: DividerSidebarPanelProps): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=DividerSidebarPanel.d.ts.map

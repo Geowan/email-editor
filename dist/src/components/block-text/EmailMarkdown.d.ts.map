@@ -1,0 +1,1 @@
+{"version":3,"file":"EmailMarkdown.d.ts","sourceRoot":"","sources":["../../../../src/components/block-text/EmailMarkdown.tsx"],"names":[],"mappings":"AAEA,OAAO,EAAE,aAAa,EAAW,MAAM,OAAO,CAAC;AAmG/C,KAAK,KAAK,GAAG;IACX,KAAK,EAAE,aAAa,CAAC;IACrB,QAAQ,EAAE,MAAM,CAAC;CAClB,CAAC;AACF,MAAM,CAAC,OAAO,UAAU,aAAa,CAAC,EAAE,QAAQ,EAAE,GAAG,KAAK,EAAE,EAAE,KAAK,2CAGlE"}

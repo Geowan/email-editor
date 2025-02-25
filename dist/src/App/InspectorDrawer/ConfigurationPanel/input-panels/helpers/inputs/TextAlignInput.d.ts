@@ -1,9 +1,8 @@
-import { default as React } from 'react';
 type Props = {
     label: string;
     defaultValue: string | null;
     onChange: (value: string | null) => void;
 };
-export default function TextAlignInput({ label, defaultValue, onChange }: Props): React.JSX.Element;
+export default function TextAlignInput({ label, defaultValue, onChange }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=TextAlignInput.d.ts.map
