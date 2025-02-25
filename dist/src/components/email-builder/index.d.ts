@@ -1,3 +1,4 @@
 export { default as renderToStaticMarkup } from './renderers/renderToStaticMarkup';
-export { ReaderBlockSchema, TReaderBlock, ReaderDocumentSchema, TReaderDocument, ReaderBlock, TReaderBlockProps, TReaderProps, default as Reader, } from './Reader/core';
+export { ReaderBlockSchema, ReaderDocumentSchema, ReaderBlock, default as Reader, } from './Reader/core';
+export type { TReaderBlock, TReaderDocument, TReaderBlockProps, TReaderProps, } from './Reader/core';
 //# sourceMappingURL=index.d.ts.map
