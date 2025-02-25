@@ -2,18 +2,16 @@
   "name": "email-editor",
   "version": "0.0.1",
   "type": "module",
+  "source": "./index.tsx",
   "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "module": "./index.tsx",
+  "types": "./index.tsx",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./index.tsx",
+      "import": "./index.tsx"
     }
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
